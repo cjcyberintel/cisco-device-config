@@ -1,0 +1,9 @@
+
+---
+
+### **File 2: `requirements.txt`**
+
+This file lists the Python libraries required to run the script. For this project, you only need the `netmiko` library.
+
+```text
+netmiko

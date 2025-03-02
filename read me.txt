@@ -1,0 +1,21 @@
+# Cisco Device Configuration Script
+
+This repository contains a Python script to connect to a Cisco IOS XE device using the `netmiko` library. The script retrieves the output of the `show ip int brief` command, allows the user to select an unassigned interface, and configures it with a user-provided IP address and subnet mask.
+
+## Script Overview
+The script:
+1. Connects to a Cisco device using SSH.
+2. Displays the current interface status using `show ip int brief`.
+3. Prompts the user to select an unassigned interface.
+4. Prompts the user to enter an IP address and subnet mask.
+5. Configures the selected interface with the provided IP address.
+6. Displays the updated interface status.
+
+## Prerequisites
+- Python 3.x installed.
+- `netmiko` library installed.
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/cisco-device-config.git
